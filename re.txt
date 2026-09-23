@@ -1,0 +1,7 @@
+kubectl apply -f .\sample-pod.yaml
+
+kubectl get pod  
+
+kubectl get all
+
+kubectl delete pods client-deployment-5bd46cd6c4-v9l4m

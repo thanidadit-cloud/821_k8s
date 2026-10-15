@@ -5,3 +5,13 @@ kubectl get pod
 kubectl get all
 
 kubectl delete pods client-deployment-5bd46cd6c4-v9l4m
+
+kubectl port-forward svc/client-service 30001:80
+
+
+
+kubectl get pods -n ingress-nginx
+
+kubectl get svc -n ingress-nginx
+
+Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "`n127.0.0.1 todo.com"
